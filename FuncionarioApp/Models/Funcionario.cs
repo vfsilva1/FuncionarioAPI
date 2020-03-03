@@ -7,6 +7,7 @@ namespace FuncionarioApp
 {
     public class Funcionario
     {
+        public int ID { get; set; }
         public string Nome { get; set; }
         public enum Sexo { MASCULINO, FEMININO };
         public int PIS { get; set; }
